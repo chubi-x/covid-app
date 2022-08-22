@@ -68,6 +68,41 @@ div.state div.title {
   font-size: 10px;
 }
 
+/* PAGINATION STYLING */
+.pagination {
+  margin: 70px 0px;
+}
+
+.pagination-list {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.pagination-list a {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #01E5BB;
+  color: #0199EE;
+  margin: 5px;
+
+}
+
+.pagination-link {
+  font-weight: bold;
+}
+
+.pagination-link--active a {
+  color: #fff;
+  background: #01E5BB;
+}
+
+.pagination-link--disabled a {
+  color: rgb(198, 197, 202);
+  border: 1px solid rgb(198, 197, 202);
+}
+
+
 /* div.stat div.icon img {
   width: 20px;
 } */
