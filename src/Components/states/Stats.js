@@ -11,7 +11,7 @@ export default function Stats() {
   const { confirmed, admission, discharged, deaths } =
     useContext(StatesContext);
   return (
-    <div className="stats flex flex-wrap pt-1 pl-1 gap-x-4 gap-y-4">
+    <div className="stats flex flex-wrap pt-1 pl-6 gap-x-4 gap-y-4">
       <Stat title="Confirmed Cases" icon={mask} value={confirmed} />
       <Stat title="Admissions" icon={bed} value={admission} />
       <Stat title="Discharged Cases" icon={heart} value={discharged} />

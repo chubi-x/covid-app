@@ -5,7 +5,7 @@ import { useContext } from "react";
 export default function States() {
   const { states } = useContext(CasesContext);
   return (
-    <div className=" flex flex-wrap justify-between pt-20 md:px-2">
+    <div className="states flex flex-wrap justify-between gap-y-10 pt-4 md:px-2">
       {states.map((state) => (
         <State
           key={state._id}
