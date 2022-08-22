@@ -4,7 +4,7 @@ import bed from "../images/bed.svg";
 import dead from "../images/dead.svg";
 import heart from "../images/heart.svg";
 import mask from "../images/mask.svg";
-
+import corona from "../images/corona.svg";
 import { CasesContext } from "../Helper/Context";
 import { useContext } from "react";
 export default function TotalStats() {
@@ -16,7 +16,7 @@ export default function TotalStats() {
           <Cases
             title="Total Samples"
             number={data.totalSamplesTested}
-            icon={heart}
+            icon={corona}
           />
           <Cases
             title=" Confirmed Cases"
