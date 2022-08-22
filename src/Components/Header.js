@@ -18,6 +18,7 @@ export default function Header() {
             <img src={github} alt="" />
           </a>
         </div>
+        {/* NOT WORKING YET */}
         <div className="icon cursor-pointer">
           <img src={lightmode} alt="" />
         </div>
