@@ -10,7 +10,11 @@ export default function Header() {
       </div>
       <div className="icons flex justify-between">
         <div className="icon px-10">
-          <a href="/" target="_blank">
+          <a
+            href="https://github.com/chubi-x/covid-app"
+            rel="noreferrer"
+            target="_blank"
+          >
             <img src={github} alt="" />
           </a>
         </div>
