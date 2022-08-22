@@ -12,7 +12,7 @@ export default function TotalStats() {
   return (
     <>
       {data.map((data, index) => (
-        <div key={index} className="container flex justify-between">
+        <div key={index} className="container flex flex-wrap justify-between">
           <Cases
             title="Total Samples"
             number={data.totalSamplesTested}
