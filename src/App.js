@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import Header from "./Components/Header";
 import TotalStats from "./Components/totals/TotalStats";
@@ -9,7 +9,7 @@ function App() {
   const [data, setData] = useState([]);
   const [states, setStates] = useState([]);
 
-  useMemo(() => {
+  useEffect(() => {
     const controller = new AbortController();
     const signal = controller.signal;
     fetch("https://covidnigeria.herokuapp.com/api", {
@@ -33,6 +33,7 @@ function App() {
     };
   }, []);
 
+  // timeout for loading state
   setTimeout(() => {
     setLoading(false);
   }, 3000);
