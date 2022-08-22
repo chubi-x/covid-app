@@ -8,6 +8,12 @@ h5 {
   font-size: 13px;
 }
 
+div.banner {
+  background-image: url('./images/banner-bg.svg');
+  height: 100px;
+  width: 100%
+}
+
 div.cases {
   display: flex;
   flex-direction: column;
@@ -25,7 +31,7 @@ div.cases h5 {
 }
 
 div.state {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   width: 250px;
   height: 137px;
   background: #FFFFFF;
