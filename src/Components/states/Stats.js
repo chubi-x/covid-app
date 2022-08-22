@@ -3,7 +3,6 @@ import bed from "../../images/bed.svg";
 import dead from "../../images/dead.svg";
 import heart from "../../images/heart.svg";
 import mask from "../../images/mask.svg";
-import corona from "../../images/corona.svg";
 import { StatesContext } from "../../Helper/Context";
 import Stat from "./stats/Stat";
 
