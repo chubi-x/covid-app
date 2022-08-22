@@ -2,7 +2,7 @@ import React, { useMemo, useState } from "react";
 import "./App.css";
 import Header from "./Components/Header";
 import TotalStats from "./Components/TotalStats";
-
+import { CasesContext } from "./Helper/Context";
 function App() {
   const [data, setData] = useState([]);
   const [states, setStates] = useState([]);
@@ -30,13 +30,15 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <Header />
-      <TotalStats />
-      {data.map((item) => (
-        <pre>{item.data.death}</pre>
-      ))}
-    </div>
+    <CasesContext.Provider value={{ data, states }}>
+      <div className="App">
+        <Header />
+        <TotalStats />
+        {data.map((item) => (
+          <pre>{item.data.death}</pre>
+        ))}
+      </div>
+    </CasesContext.Provider>
   );
 }
 
