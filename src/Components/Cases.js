@@ -8,7 +8,7 @@ export default function Cases({ title, number, icon }) {
         <img src={icon} alt="icon" className="w-auto" />
       </div>
       <div className="total">
-        <h5>{number}</h5>
+        <h5>{number.toLocaleString()}</h5>
       </div>
     </div>
   );
