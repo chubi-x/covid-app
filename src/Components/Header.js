@@ -6,14 +6,14 @@ export default function Header() {
   return (
     <nav className="flex justify-between flex-row px-20 pt-5">
       <div className="logo">
-        <img src={logo} alt="logo" srcset="" />
+        <img src={logo} alt="logo" />
       </div>
       <div className="icons flex justify-between">
         <div className="icon px-10">
-          <img src={github} alt="" srcset="" />
+          <img src={github} alt="" />
         </div>
         <div className="icon">
-          <img src={lightmode} alt="" srcset="" />
+          <img src={lightmode} alt="" />
         </div>
       </div>
     </nav>
