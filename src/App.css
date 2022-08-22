@@ -1,3 +1,13 @@
+h2,
+h5 {
+  background: linear-gradient(92.48deg, #0199EE 2.11%, #01E5BB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 13px;
+}
+
 div.cases {
   display: flex;
   flex-direction: column;
@@ -8,16 +18,49 @@ div.cases {
   box-shadow: 1px 1px 5px 2px rgba(0, 224, 238, 0.08);
 }
 
-div.cases h2,
-div.cases h5 {
-  background: linear-gradient(92.48deg, #0199EE 2.11%, #01E5BB 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-  font-size: 13px;
-}
+
 
 div.cases h5 {
   font-size: 25px;
 }
+
+div.state {
+  margin-top: 50px;
+  width: 250px;
+  height: 137px;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 5px 2px rgba(0, 152, 238, 0.15);
+  border-radius: 4px;
+}
+
+div.state:hover {
+  background: linear-gradient(92.48deg, #0197ee1b 2.11%, #01e5bb52 100%);
+}
+
+div.state:hover,
+div.state h2 {
+  color: white;
+}
+
+
+div.state div.icon img {
+  width: 20px;
+  height: 20px;
+}
+
+div.state div.name {
+  width: 90%;
+  text-align: center;
+}
+
+div.state div.stat {
+  /* margin-top: 5px */
+}
+
+div.state div.title {
+  font-size: 10px;
+}
+
+/* div.stat div.icon img {
+  width: 20px;
+} */

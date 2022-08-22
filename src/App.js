@@ -35,7 +35,7 @@ function App() {
     <CasesContext.Provider value={{ data, states }}>
       <div className="App">
         <Header />
-        <div className="container px-20 md:px-32 pt-10">
+        <div className="px-20 md:px-32 pt-10">
           <TotalStats />
           <States />
         </div>
