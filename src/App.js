@@ -56,7 +56,7 @@ function App() {
           <Header />
           <div className="px-20 md:px-32 pt-10">
             <TotalStats />
-            <div className="banner"></div>
+            <div className="banner mt-4"></div>
             <States />
           </div>
         </div>

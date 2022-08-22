@@ -10,9 +10,11 @@ export default function Header() {
       </div>
       <div className="icons flex justify-between">
         <div className="icon px-10">
-          <img src={github} alt="" />
+          <a href="/" target="_blank">
+            <img src={github} alt="" />
+          </a>
         </div>
-        <div className="icon">
+        <div className="icon cursor-pointer">
           <img src={lightmode} alt="" />
         </div>
       </div>
