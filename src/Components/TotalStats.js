@@ -1,5 +1,5 @@
 import React from "react";
-import Cases from "./totals/Cases";
+import Cases from "./Cases";
 import bed from "../images/bed.svg";
 import dead from "../images/dead.svg";
 import heart from "../images/heart.svg";
@@ -12,7 +12,7 @@ export default function TotalStats() {
   return (
     <>
       {data.map((data, index) => (
-        <div key={index} className="container flex justify-between px-32 pt-10">
+        <div key={index} className="container flex justify-between">
           <Cases
             title="Total Samples"
             number={data.totalSamplesTested}
